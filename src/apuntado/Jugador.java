@@ -47,7 +47,7 @@ public class Jugador {
         pnl.removeAll();
         //mostrar cada carta
         for (int i = 0; i < 10; i++) {
-            cartas[i].mostrarCarta(370 - i * 30, 10, pnl, tapada);
+            cartas[i].mostrarCarta(300 - i * 25, 10, pnl, tapada);
         }
         //Redibujar el panel 
         pnl.repaint();
