@@ -54,7 +54,7 @@ public class FrmJuego extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Apuntado");
-        setIconImages(null);
+        setIconImage(new ImageIcon("images/baraja.png").getImage());
         setLocationByPlatform(true);
         setResizable(false);
 
